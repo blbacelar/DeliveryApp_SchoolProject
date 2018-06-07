@@ -11,14 +11,7 @@ I was tech lead in the team so I decided architecture and supported others.
 <img width="1680" alt="architecture" src="https://user-images.githubusercontent.com/8979200/40883014-1c966440-66a8-11e8-955f-7e408bfd8d4a.png">
 
 We used Clean Architecture + MVVM.
-The reason why I decided using this architecture is that this is the one of most popular and common architecture recently so I thought it's worth to learn.
-Since each class has own responsibility, if you use this architecutre, the app will be testable, sustainable and flexible for changes.
-
-However as it turned out, it was too much for this application and complicated for beginners.
-I think perhaps we should've removed `Domain layer`.
-
-Although, other members said it was good to learn.
-I hope learning this architecture will help others in the future 😎👍
+The reason why we decided using this architecture is that this is the one of most popular and common architecture recently so I thought it's worth to learn.
 
 
 ## Libraries
@@ -45,7 +38,7 @@ But eventually they understood how to use it.(Of couse not all!! Rx has so many 
 
 We used Firebase as backend.
 There are 2 options for database, Realtime Database and Cloud Firestore.
-We decided to use Cloud Firestore even it's still beta because it enables you to make more flexible query and it seems Cloud Firestore will be standard databse of Firebase.
+We decided to use Cloud Firestore even it's still beta because it enables you to make more flexible query and it seems Cloud Firestore will be standard database of Firebase.
 
 ### How we defined data structure
 <img width="1014" alt="screen shot 2018-06-02 at 21 30 46" src="https://user-images.githubusercontent.com/8979200/40883178-6024c8ba-66ac-11e8-9086-929b81aae75e.png">
@@ -71,19 +64,3 @@ The benefits of this are following.
 - You never typo the name of key
 - Even if someone deleted all data by mistake, it's easy to restore
 
-
-# About Project
-## Project Members
-- Bruno - Project Manager
-- Kento(me!) - Tech lead
-- Jaewon - Backend
-- Maimai - Designer
-- Diego - Member
-
-## What I lectured to other members
-- How to use git flow
-- How to make pull request on Gitlab
-- How the architecture works
-- What dependency injection is
-- How to use Swinject
-- How to use RxSwift
