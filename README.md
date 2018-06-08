@@ -29,9 +29,7 @@ It worked really well and helped us to focus coding!
 https://github.com/ReactiveX/RxSwift
 
 We used RxSwift for binding View and ViewModel and also to receive result in ViewModel.
-Most of project members are beginner so I hesitated using Rx and write codes using callback and compared both. As a result, using Rx one looks clean and decided using RxSwift.
-Even though we use RxSwift just in simple way, others were struggling using Rx.
-But eventually they understood how to use it.(Of couse not all!! Rx has so many features 😅)
+
 
 ## Backend
 ![1_winrwnanwjbzbjlxugrj6a](https://user-images.githubusercontent.com/8979200/40883333-defaa07c-66ae-11e8-875b-062142326191.png)
